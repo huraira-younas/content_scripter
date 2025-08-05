@@ -1,0 +1,97 @@
+/* Range Slider as a Single Thumb Slider */
+.single-thumb .range-slider__thumb[data-lower] {
+    width: 0;
+  }
+  .single-thumb .range-slider__range {
+    border-radius: 6px;
+  }
+.square-thumb .range-slider__thumb[data-lower]{
+    width: 0;
+}
+.square-thumb {
+    &.range-slider .range-slider__thumb {
+      border-radius:5px !important;
+
+  }
+}
+
+#secondary-colored-slider {
+  .MuiSlider-track {
+    background-color: $secondary ;
+    border: 1px solid $secondary;
+  }
+  .MuiSlider-rail {
+    background-color: $secondary !important;
+  }
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium {
+    color: $secondary !important;
+  }
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium::after, 
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium::before {
+    color: $secondary !important;
+  }
+}  
+#warning-colored-slider {
+  .MuiSlider-track {
+    background-color: $warning ;
+    border: 1px solid $warning;
+  }
+  .MuiSlider-rail {
+    background-color: $warning !important;
+  }
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium {
+    color: $warning !important;
+  }
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium::after, 
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium::before {
+    color: $warning !important;
+  }
+}  
+#info-colored-slider {
+  .MuiSlider-track {
+    background-color: $info ;
+    border: 1px solid $info;
+  }
+  .MuiSlider-rail {
+    background-color: $info !important;
+  }
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium {
+    color: $info !important;
+  }
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium::after, 
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium::before {
+    color: $info !important;
+  }
+}  
+#success-colored-slider {
+  .MuiSlider-track {
+    background-color: $success ;
+    border: 1px solid $success;
+  }
+  .MuiSlider-rail {
+    background-color: $success !important;
+  }
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium {
+    color: $success !important;
+  }
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium::after, 
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium::before {
+    color: $success !important;
+  }
+}  
+#danger-colored-slider {
+  .MuiSlider-track {
+    background-color: $danger ;
+    border: 1px solid $danger;
+  }
+  .MuiSlider-rail {
+    background-color: $danger !important;
+  }
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium {
+    color: $danger !important;
+  }
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium::after, 
+  .MuiSlider-thumb.MuiSlider-thumbSizeMedium::before {
+    color: $danger !important;
+  }
+}  

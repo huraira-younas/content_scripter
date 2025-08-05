@@ -1,0 +1,199 @@
+/* ###### 3.13 globalReactselect ###### */
+
+.Select2__indicator-separator {
+    display: none;
+  }
+  .Select2__option:hover {
+    color:#fff;
+  }
+
+  .Select2__menu {
+    margin: 0 !important;
+  }
+  //
+  
+  .Select2__control {
+    box-shadow: none !important;
+  }
+  
+  //
+  .background__indicator-separator{
+    display: none;
+  }
+  .Select2__multi-value, .react-select__multi-value {
+    border-radius: .25rem !important;
+  }
+  .default{
+    .Select2__multi-value__label {
+    padding: 0.025rem 0.625rem!important;
+    background-color: $primary !important;
+    color: #fff !important;
+    border-radius: .25rem;
+    }
+    .Select2__multi-value__remove{
+     display: none;
+    }
+  }
+  .passing-option{
+      .react-select__multi-value__remove{
+       display: none;
+      }
+  }
+  
+
+  
+.Select2__menu {
+    div,
+    li,
+    .Select2__single-value {
+      &.active,
+      .Select2__option--is-selected {
+        background: var(--primary-bg-color) !important;
+      }
+    }
+  }
+  
+  .rmsc.multi-select .dropdown-container,
+  .rdl-actions .rdl-move,
+  .Select2__control {
+    border-color: $default-border;
+    background-color: $custom-white;
+  }
+  .multi-select .dropdown-content {
+    background-color: $custom-white;
+    border: 1px solid $default-border;
+    
+    div {
+      background-color: $custom-white;
+  
+      label {
+        &:hover,
+        &.selected {
+          background-color: $custom-white;
+        }
+      }
+    }
+  }
+  .Select2__menu {
+    background-color: $custom-white;
+    border: 1px solid $default-border;
+  }
+  
+  .Select2__option--is-selected,
+  .Select2__option--is-focused {
+    background: $custom-white !important;
+    color: $default-text-color !important;
+  }
+  .Select2__option:hover {  
+    background: $primary !important;
+  }
+  .Select2__control {
+    background-color: $custom-white;
+    border-color: $default-border;
+  }
+  .Select2__option, .Select2__single-value {
+    img {
+      width: 30px !important;
+      height: 30px !important;
+      border-radius: 50%;
+    }
+  }
+
+  .input-group {
+    .buysell {
+      .Select2__input-container {
+        color: $default-text-color;
+      }
+      .Select2__control{
+        border-start-start-radius: 0;
+        border-end-start-radius: 0;
+        min-height: 39px !important;
+        border-color: $default-border;
+      }
+    }
+    
+  }
+
+  .Select2__control, .Select2__menu {
+    background-color: $form-control-bg !important;
+    border-color: $input-border !important;
+  }
+  .Select2__option:hover {
+    color: #fff !important;
+    background-color: $primary !important;
+  }
+  .Select2__input-container, .Select2__single-value {
+    color: $default-text-color !important;
+  }
+  .input-group {
+    .Select2__control {
+      border-start-start-radius: 0 !important;
+      border-end-start-radius: 0 !important;
+    }
+  }
+  .Select2__menu {
+    div,
+    li,
+    .Select2__single-value {
+      &.active,
+      .Select2__option--is-selected {
+        color: #fff !important;
+        background-color: $primary !important;
+      }
+    }
+  }
+  .Select2__menu { 
+    z-index: 3 !important;
+  }
+
+  .Select2__multi-value {
+    background-color: $primary !important;
+    color: #fff !important;
+  }
+  .Select2__multi-value__label {
+    color: #fff !important;
+  }
+  .react-select__control {
+    background-color: $form-control-bg !important;
+    border-color: $default-border !important;
+  }
+  .react-select__multi-value {
+    background-color: $primary !important;
+  }
+  .react-select__multi-value__label {
+    color: #fff !important;
+  }
+  .react-select__multi-value__remove {
+    svg {
+      fill: #fff !important;
+    }
+  }
+  .Select2__placeholder {
+    color: $text-muted !important;
+  }  
+  .rmsc {
+    --rmsc-main: transparent;
+    --rmsc-border: #e9edf6 !important;
+    --rmsc-bg: #fff !important;
+    --rmsc-main: #000;
+    --rmsc-selected: #845adf1a !important;
+    --rmsc-hover: #845adf1a !important;
+  }
+  
+  .rmsc .dropdown-container {
+    background: $custom-white;
+    border: 1px solid $default-border !important;
+  }
+  
+  .rmsc .dropdown-content {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+  }
+  .rmsc {
+    --rmsc-main: transparent !important;
+  }
+  .react-select__input-container {
+    color: $default-text-color !important;
+  }
+  /* ###### 3.13 globalReactselect ###### */
+
+

@@ -1,0 +1,100 @@
+.react-datepicker__day--selected, 
+.react-datepicker__day--in-selecting-range, 
+.react-datepicker__day--in-range, 
+.react-datepicker__month-text--selected, 
+.react-datepicker__month-text--in-selecting-range, 
+.react-datepicker__month-text--in-range, 
+.react-datepicker__quarter-text--selected, 
+.react-datepicker__quarter-text--in-selecting-range, 
+.react-datepicker__quarter-text--in-range, 
+.react-datepicker__year-text--selected, 
+.react-datepicker__year-text--in-selecting-range, 
+.react-datepicker__year-text--in-range {
+  background-color: $primary;
+  color: $custom-white;
+}
+#addtask {
+  .react-datepicker__input-container {
+    // min-width: 100px !important;
+    width: 120px !important;
+  }
+}
+  .react-datepicker__input-container {
+    input {
+      position: relative;
+      flex: 1 1 auto;
+      width: 100%;
+      min-width: 0;
+      height: 36px;
+      border-radius: .35rem;
+      border: 1px solid $default-border !important;
+      background-color: $form-control-bg;
+      color: $default-text-color;
+      &:focus-within {
+        border: 0;
+        outline: 0 !important;
+      }
+      padding: .375rem .75rem;
+      
+    }
+  }
+  .react-datepicker-popper[data-placement^=top] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::before, 
+  .react-datepicker-popper[data-placement^=top] .react-datepicker__triangle::after, .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::after {
+    left: -29px !important;
+}
+  .react-datepicker-wrapper {
+    display: block !important;
+  }
+
+  .react-datepicker__header {
+    background-color: $primary-01 !important;
+    border-color: $primary-01 !important;
+    .react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+      color: $default-text-color !important;
+    }
+  }
+  .react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+    color: $default-text-color !important;
+  }
+  .react-datepicker {
+    background-color: $custom-white !important;
+    border-color: $default-border !important;
+    color: $default-text-color !important;
+  }
+  .react-datepicker__time-container .react-datepicker__time {
+    background-color: $custom-white !important;
+  }
+  .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::after {
+    border-bottom-color: $default-border !important;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item:hover {
+  background-color: $black-1 !important;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected {
+  background-color: $primary !important;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected:hover {
+  background-color: $primary !important;
+}
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+  color: $default-text-color !important;
+}
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected,
+.react-datepicker__day:hover, .react-datepicker__month-text:hover, .react-datepicker__quarter-text:hover, .react-datepicker__year-text:hover {
+  background-color: $primary !important;
+  color: #fff !important;
+}
+.sun-editor-editable {
+  background-color: $form-control-bg !important;
+}
+.react-datepicker__day--selected {
+  background-color: $primary !important;
+  color: #fff !important;
+}
+.react-datepicker__day.react-datepicker__day--selected {
+  color: #fff !important;
+}
+
+.react-datepicker-time__input {
+  color: $default-text-color;
+}

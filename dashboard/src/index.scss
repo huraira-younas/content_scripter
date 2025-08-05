@@ -1,0 +1,21 @@
+@import './assets/css/icons.css';
+@import "./assets/scss/variables"; //
+@import "./assets/scss/switcher";
+
+@import "./assets/css/styles.css";
+@import 'react-perfect-scrollbar/dist/css/styles.css'; //perfectscrollbar
+
+//simonwep colorpicker
+@import "@simonwep/pickr/dist/themes/classic.min.css";
+@import "@simonwep/pickr/dist/themes/monolith.min.css";
+@import "@simonwep/pickr/dist/themes/nano.min.css";
+
+.custom:hover {
+    background-color: $primary !important;
+    color: $white !important;
+  }
+  
+  .colored-icon {
+    filter: grayscale(100%) brightness(0%) invert(0%) sepia(100%) hue-rotate(0deg)
+      saturate(1000%) brightness(50%);
+  }

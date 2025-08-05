@@ -1,0 +1,57 @@
+#vector-map {
+    svg {
+      width: 100% !important;
+      height: 337px !important;
+    }
+  }
+  #russia-map,
+  #us-map,
+  #marker-image-map,
+  #lines-map,
+  #marker-map {
+    svg {
+      width: 100% !important;
+      height: 310px !important;
+    }
+  }
+  #marker-map {
+    svg {
+      width: 100% !important;
+      height: 360px !important;
+    }
+  }
+  #users-map .controls .btn {
+    padding: 0.1rem!important;
+    line-height: 1;
+    border-radius: 3px!important;
+    margin-inline-start: 3px;
+}
+#users-map {
+  .controls {
+    margin-block-start: 0.25rem!important;
+    .btn {
+      svg {
+        width: 15px;
+        height: 15px;
+        line-height: 0;
+        fill: #000;
+        color: white;
+        background-color: #000 !important;
+        
+      }
+      padding: 0 !important;
+      border-color: #000 !important;
+    }
+  }
+  .rsm-svg {
+    height: 230px;
+    width: 100%;
+  }
+  overflow: hidden;
+}
+#visitors-countries {
+  .controls {
+      display: none;
+  }
+
+}
